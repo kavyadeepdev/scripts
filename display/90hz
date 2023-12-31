@@ -1,0 +1,3 @@
+#!/bin/sh
+# file: 90hz
+xrandr --newmode "1920x1080_90.00" 269.00 1920 2064 2272 2624 1080 1083 1088 1140 -hsync +vsync && xrandr --addmode eDP-1 "1920x1080_90.00" && xrandr --output eDP-1 --mode 1920x1080_90.00 &

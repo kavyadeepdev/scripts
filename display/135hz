@@ -1,0 +1,4 @@
+#!/bin/sh
+# file: 135hz
+xrandr --newmode "1920x1080_135.00" 419.25 1920 2080 2288 2656 1080 1083 1088 1170 -hsync +vsync && xrandr --addmode eDP-1 "1920x1080_135.00" && xrandr --output eDP-1 --mode 1920x1080_135.00 &
+
